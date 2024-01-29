@@ -179,9 +179,11 @@ a{
     background: #333;
     padding: 1rem 2rem;
     margin: 0 auto;
+  }
   
     .task-progress {
       margin: 1.5rem 0;
+      
     }
   
     .task-progress p {
@@ -189,6 +191,7 @@ a{
       justify-content: space-between;
       align-items: center;
       color: #eee;
+      
     }
   
     span {
@@ -202,6 +205,7 @@ a{
       border: none;
       border-radius: 10px;
       height: 10px;
+      width: 600px;
     }
   
     .progress::-webkit-progress-bar {
@@ -228,5 +232,5 @@ a{
     .progress3::-webkit-progress-value {
       background: #3fff76;
     }
-  }
+  
   
